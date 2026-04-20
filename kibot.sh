@@ -65,12 +65,16 @@ sed -i \
 sed -i '/[/]CreationDate.*$/d' ./gen/schematics.pdf
 sed -i '/[/]CreationDate.*$/d' ./gen/pcb.pdf
 
+# strip metadata from images
+mogrify -strip ./gen/*.{png,jpg}
+rm -f gen/*~
+touch -cd 1970-01-01T00:00:00Z ./gen/*.{png,jpg}
+
 
 # move files around
 rm ./gen/*rc.txt || true
 
 cp -f ./gen/bom_lcsc.csv ./gen/single/_bom.csv
-cp -f ./gen/img_pcb_3d_front_smd.png ./gen/single/_smd.png
 
 mv -f ./gen/project.step ./gen/${sch_title}.step
 

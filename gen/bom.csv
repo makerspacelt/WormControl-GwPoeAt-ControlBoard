@@ -55,7 +55,7 @@
 "54","300mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23","APE8865N-33-HF-3","U203","JTD6206-3.3V","SOT-23","1"," ","https://www.lcsc.com/datasheet/C42443428.pdf","C5446","B+","C42443428"
 "55","Half duplex RS-485/RS-422, 0.25 Mbps, ±15kV electro-static discharge (ESD) protection, with slew-rate, with low-power shutdown, with receiver/driver enable, 128 receiver drive kapacitity, DIP-8 and SOIC-8","MAX487E","U601","MAX13487E","SOIC-8_3.9x4.9mm_P1.27mm","1"," ","https://www.lcsc.com/datasheet/C18347.pdf","C18347","E+",""
 "56","1.2 A Simple Buck Regulator, 3-26V input, 1.5Mhz","AOZ1280CI","U202","ME3121AM6G","SOT-23-6","1"," ","https://m.huazhoucn.com/upFiles/common/2022/12/ME3121_Series_E1.0.pdf","C2932938","E+",""
-"57","Digital Temperature Sensor with I2C/SMBus Interface, +/-2° C, one-shot conversion, alert, SOT-23-6","TMP101","U101,U104","TMP102","SOT-563","2"," ","https://www.lcsc.com/datasheet/C99269.pdf","C99269","E+",""
+"57","Digital Temperature Sensor, +/- 3 °C, low-Power, SMBus, 12 bit, Two-Wire Serial Interface, SOT-563","TMP102xxDRL","U101,U104","TMP102","SOT-563","2"," ","https://www.ti.com/lit/ds/symlink/tmp102.pdf","C99269","E+",""
 "58","Very low capacitance ESD protection diode, 2 data-line, SOT-23-6","USBLC6-2SC6","U103","USBLC6-2SC6","SOT-23-6","1"," ","https://www.lcsc.com/datasheet/C2687116.pdf","C2687116","E+",""
 "59","10/100Mb SPI Ethernet controller with TCP/IP stack, LQFP-48","W5500","U401","W5500","LQFP-48_7x7mm_P0.5mm","1"," ","https://www.lcsc.com/datasheet/C32843.pdf","C32843","E+",""
 "60","High-Speed CAN Transceiver, standby mode, split pin, SOIC-8","TJA1042T","U501","XL1050","SOIC-8_3.9x4.9mm_P1.27mm","1"," ","https://www.lcsc.com/datasheet/C609746.pdf","C609746","E+",""
